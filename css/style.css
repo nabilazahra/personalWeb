@@ -1,3 +1,4 @@
+/*
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -5,13 +6,93 @@
   font-weight: normal;
   font-style: normal;
 }
+*/
+
+@font-face {
+  font-family: 'Gravity Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gravity Regular'), url('../fonts/gravity/Gravity-Regular.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Gravity Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gravity Italic'), url('../fonts/gravity/Gravity-Italic.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Gravity UltraLight';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gravity UltraLight'), url('../fonts/gravity/Gravity-UltraLight.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Gravity UltraLight Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gravity UltraLight Italic'), url('../fonts/gravity/Gravity-UltraLightItalic.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Gravity Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gravity Light'), url('../fonts/gravity/Gravity-Light.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Gravity Light Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gravity Light Italic'), url('../fonts/gravity/Gravity-LightItalic.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Gravity Book';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gravity Book'), url('../fonts/gravity/Gravity-Book.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Gravity Book Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gravity Book Italic'), url('../fonts/gravity/Gravity-BookItalic.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Gravity Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gravity Bold'), url('../fonts/gravity/Gravity-Bold.woff') format('woff');
+  }
+  
+
+  @font-face {
+  font-family: 'Gravity Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Gravity Bold Italic'), url('../fonts/gravity/Gravity-BoldItalic.woff') format('woff');
+  }
 /* =======================================================
 *
 * 	Template Style 
 *
 * ======================================================= */
 body {
-  font-family: "Space Mono", Arial, serif;
+  font-family: "Gravity Regular";
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -69,7 +150,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Space Mono", Arial, serif;
+  font-family: "Gravity Bold";
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -231,7 +312,7 @@ form label {
   margin-bottom: 20px;
   font-size: 20px;
   line-height: 1.5;
-  font-family: "Space Mono", Arial, serif;
+  font-family: "Gravity Regular";
   font-weight: 300;
 }
 @media screen and (max-width: 992px) {
