@@ -112,8 +112,8 @@
 		
 
 			
-		
-		<div class="countdown-wrap js-fullheight">
+
+		<div id = 'coba' class="countdown-wrap js-fullheight">
 			<div class="row">
 				<div class="col-md-12 text-center">
 					<div class="display-t js-fullheight">
@@ -161,15 +161,7 @@
 	</div>
 	
 
-	<script type="text/javascript">
-		//<!--
-		/*
-		if (screen.width <= 699) {
-		document.location = "mobile.html";
-		}
-		*/
-		//-->
-		</script>
+
 		
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
@@ -203,7 +195,16 @@
         enableUtc: false
     });
 </script>
-
+<script type="text/javascript">
+	//<!--
+	
+	if (screen.width <= 699) {
+	/*document.location = "mobile.html";*/
+	document.getElementById('coba').style.position = 'relative';
+	}
+	
+	//-->
+	</script>
 	</body>
 </html>
 
